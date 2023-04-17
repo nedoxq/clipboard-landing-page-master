@@ -450,7 +450,7 @@ button {
     }
 }
 
-@media (max-width:1200px) {
+@media (min-width:900px) and (max-width:1200px) {
 
     .intro-container {
         padding-inline: 11rem;
