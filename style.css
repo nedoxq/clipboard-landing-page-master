@@ -260,6 +260,31 @@ button {
 }
 
 /* RESPONSIVE MEDIA QUERIES */
+@media (min-width:900px) and (max-width:1200px) {
+
+    .intro-container {
+        padding-inline: 11rem;
+    }
+
+
+    .features-right {
+        max-width: 50%;
+        text-align: left;
+        padding-top: 4.25rem;
+        padding-right: 8rem;
+        padding-left: 3rem;
+    }
+
+    .access-container {
+        margin-inline: 10rem;
+    }
+
+    .download-container {
+        padding-inline: 11rem;
+        margin-bottom: 10rem;
+    }
+}
+
 
 @media (min-width:900px) {
     body {
@@ -447,30 +472,5 @@ button {
 
     .footer {
         padding-inline: 1rem;
-    }
-}
-
-@media (min-width:900px) and (max-width:1200px) {
-
-    .intro-container {
-        padding-inline: 11rem;
-    }
-
-
-    .features-right {
-        max-width: 50%;
-        text-align: left;
-        padding-top: 4.25rem;
-        padding-right: 8rem;
-        padding-left: 3rem;
-    }
-
-    .access-container {
-        margin-inline: 10rem;
-    }
-
-    .download-container {
-        padding-inline: 11rem;
-        margin-bottom: 10rem;
     }
 }
